@@ -261,7 +261,7 @@ hr {
   border: none;
 }
 
-section#gamers{
+section#gamers {
   padding-left: 10%;
 }
 
@@ -301,9 +301,11 @@ footer {
 .partners img {
   width: 25%;
 }
-.logo{
+
+.logo {
   background-color: #fff;
 }
+
 .logo-title {
   text-align: center;
   color: #272a31;
@@ -331,24 +333,28 @@ footer {
   padding: 3%;
   font-weight: normal;
 }
+
 .past p {
   padding: 5%;
   text-align: center;
 }
 
 .event {
-margin: 5%;
+  margin: 5%;
 }
 
 .summit {
-width: 90%;
-height: 220px;
+  width: 90%;
+  height: 220px;
   padding: 2%;
-  background-image: linear-gradient(rgba(236, 82, 66, 0.5),
-   rgba(236, 82, 66, 0.5)), 
-   url('images/bg-image.png');
-    background-size: 100%;
-    margin: 5% 0;
+  background-image:
+    linear-gradient(
+      rgba(236, 82, 66, 0.5),
+      rgba(236, 82, 66, 0.5)
+    ),
+    url('images/bg-image.png');
+  background-size: 100%;
+  margin: 5% 0;
 }
 
 @media screen  and (min-width: 768px) {
@@ -400,23 +406,27 @@ height: 220px;
     width: auto;
     margin: 1%;
   }
-  section#gamers{
+
+  section#gamers {
     display: grid;
     grid-template-columns: auto auto;
-}
-.event {
-  display: flex;
-}
-.summit{
-  display: flex;
-      height: 20vh;
-      background-size: cover;
-      margin: 30px;
-      background-repeat: no-repeat;
   }
-.summit div {
-  font-size: 30px;
-  align-self: center;
-  color: white;
-} 
+
+  .event {
+    display: flex;
+  }
+
+  .summit {
+    display: flex;
+    height: 20vh;
+    background-size: cover;
+    margin: 30px;
+    background-repeat: no-repeat;
+  }
+
+  .summit div {
+    font-size: 30px;
+    align-self: center;
+    color: white;
+  }
 }
