@@ -410,6 +410,7 @@ footer {
   section#gamers {
     display: grid;
     grid-template-columns: auto auto;
+    padding-right: 10%;
   }
 
   .event {
