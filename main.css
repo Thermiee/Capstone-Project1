@@ -175,6 +175,7 @@ img.img1 {
 .gamers__image {
   display: flex;
   width: 40%;
+  justify-content: center;
 }
 
 .gamer__description {
