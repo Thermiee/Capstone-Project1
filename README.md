@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-> online website for a conference
+> online website for a Gamers summit
 
-<!-- 
-## Live Demo (if available)
+![screenshot](./images/app_screenshot.png)
 
-[Live Demo Link](https://livedemo.com) -->
+## Live Demo
+
+[Live Demo Link](https://thermiee.github.io/Capstone-Project1/)
 
 To get a local copy up and running follow these simple example steps.
 
