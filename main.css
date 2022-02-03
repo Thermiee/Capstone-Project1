@@ -337,12 +337,18 @@ footer {
 }
 
 .event {
-text-align: center;
+margin: 5%;
 }
 
-.event img {
-  width: 60%;
+.summit {
+width: 90%;
+height: 220px;
   padding: 2%;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5),
+   rgba(236, 82, 66, 0.5)), 
+   url('images/bg-image.png');
+    background-size: 100%;
+    margin: 5% 0;
 }
 
 @media screen  and (min-width: 768px) {
@@ -398,8 +404,19 @@ text-align: center;
     display: grid;
     grid-template-columns: auto auto;
 }
-
-.event img {
-  width: 40%;
+.event {
+  display: flex;
 }
+.summit{
+  display: flex;
+      height: 20vh;
+      background-size: cover;
+      margin: 30px;
+      background-repeat: no-repeat;
+  }
+.summit div {
+  font-size: 30px;
+  align-self: center;
+  color: white;
+} 
 }
