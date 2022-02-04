@@ -1,14 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-> online website for a conference
+> online website for a Gamers summit
 
-<!-- 
-## Live Demo (if available)
+![screenshot](./images/app_screenshot.png)
 
-[Live Demo Link](https://livedemo.com) -->
+Built from this [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+## Live Demo
+
+[Live Demo Link](https://thermiee.github.io/Capstone-Project1/)
 
 To get a local copy up and running follow these simple example steps.
+
+## Video
+In the following [link](https://www.loom.com/share/a264de446c974d4aa7b2ca7ca105c6b1) I am explaining the capstone project.
 
 ## Built With
 - HTML
@@ -18,6 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESLint
+
 
 To get a local copy up and running follow these simple example steps.
 
