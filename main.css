@@ -165,12 +165,12 @@ img.img1 {
   line-height: 70px;
   display: flex;
   text-align: center;
-  padding: 5% 20% ;
+  padding: 5% 20%;
   font-family: 'cocogoose', sans-serif;
   justify-content: center;
 }
 
-.about-venue{
+.about-venue {
   padding-left: 10%;
   display: flex;
   color: #272a31;
@@ -180,19 +180,18 @@ img.img1 {
   line-height: 24px;
   justify-content: center;
   font-weight: bold;
-  
 }
 
 .about-mail {
-    color: #272a31;
-    width: 80%;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 20px;
-    display: flex;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
+  color: #272a31;
+  width: 80%;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
 
 .date {
