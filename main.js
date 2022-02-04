@@ -19,39 +19,39 @@ const gamerSections = document.querySelector('.gamer__sections');
 const gamersList = [
   {
     name: 'Teezie',
-    description: 'Professional player, he is one of the best players in the world.',
+    description: 'Professional player, he is one of the best players in the world. Hoping to get his first MVP medal.',
     imageLink: 'images/p5.jpeg',
-    teamName: ['Loners Fc'],
+    teamName: ['Loners'],
   },
   {
     name: 'Kraken',
     description: 'Profesisonal player, he has won 5 MVP Medals and has been crowned as the best player of 2018',
     imageLink: 'images/p0.jpeg',
-    teamName: ['Krakenstein'],
+    teamName: ['Hell raiser'],
   },
   {
     name: 'Lieutenant',
-    description: 'Professional player, he is an great competitor with incredible fighting.',
+    description: 'Professional player, he is an great competitor with incredible fighting spirit.',
     imageLink: 'images/p1.jpeg',
-    teamName: ['Fly with callings'],
+    teamName: ['Callings'],
   },
   {
-    name: 'Tony',
+    name: 'Tony Mason',
     description: 'Profesisonal player, he has won 2 MVP Medals and has been crowned as the best player of 2021',
     imageLink: 'images/p2.jpeg',
-    teamName: ['Mason'],
+    teamName: ['papa Cummings'],
   },
   {
-    name: 'PlayBoy',
-    description: 'Profesisonal player, he has won 2 MVP Medals and has been crowned as the best player of 2020',
+    name: 'Dapo',
+    description: 'Profesisonal player, he has won 1 MVP Medals and has been crowned as the best player of 2020',
     imageLink: 'images/p3.jpeg',
-    teamName: ['Noobs'],
+    teamName: ['Playboy '],
   },
   {
-    name: 'D`meg',
-    description: 'professional player, he is a great competitor.',
+    name: 'Megatron',
+    description: 'professional player, he is a great competitor. A Tactician with high win rate hoping to get his first MVP.',
     imageLink: 'images/p4.jpeg',
-    teamName: ['Megatron'],
+    teamName: ['D`Meg'],
   },
 ];
 
@@ -63,9 +63,9 @@ for (let i = 0; i < gamersList.length; i += 1) {
             <img src='${gamersList[i].imageLink}' alt='gamer 1' class='img1' />
           </div>
           <div class='gamer__description'>
-            <h2>${gamersList[i].name}</h2>
+            <h3>${gamersList[i].name}</h3>
             <div class='short_desc'>
-              <h4>${gamersList[i].teamName}</h4>
+              <h4> ${gamersList[i].teamName}</h4>
               <span></span>
             </div>
             <div class='long_desc'>
