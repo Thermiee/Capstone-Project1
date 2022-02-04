@@ -145,6 +145,56 @@ img.img1 {
   background-color: #e5e5e5;
 }
 
+.about-description {
+  display: flex;
+  color: #272a31;
+  margin: 5% 10%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 3px solid white;
+  padding: 2%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-title {
+  color: #ec5242;
+  font-size: 55px;
+  line-height: 70px;
+  display: flex;
+  text-align: center;
+  padding: 5% 20% ;
+  font-family: 'cocogoose', sans-serif;
+  justify-content: center;
+}
+
+.about-venue{
+  padding-left: 10%;
+  display: flex;
+  color: #272a31;
+  width: 80%;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: center;
+  font-weight: bold;
+  
+}
+
+.about-mail {
+    color: #272a31;
+    width: 80%;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
 .date {
   color: #272a31;
   width: 80%;
