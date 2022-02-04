@@ -85,7 +85,8 @@ body {
 }
 
 img.img1 {
-  max-width: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .overlay .closebtn {
@@ -369,6 +370,13 @@ footer {
   margin: 5% 0;
 }
 
+.summit div {
+  font-size: 30px;
+  align-self: center;
+  color: white;
+  padding-top: 25%;
+}
+
 @media screen  and (min-width: 768px) {
   .web-nav {
     display: flex;
@@ -424,10 +432,11 @@ footer {
     grid-template-columns: auto auto;
     padding-right: 10%;
   }
+
   img.img1 {
     width: 120px;
     height: 120px;
-}
+  }
 
   .long_desc {
     font-size: 14px;
@@ -449,5 +458,6 @@ footer {
     font-size: 30px;
     align-self: center;
     color: white;
+    padding-top: 0%;
   }
 }
